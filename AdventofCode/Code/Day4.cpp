@@ -134,7 +134,7 @@ namespace Day4 {
 
     void start(){
         ifstream file;
-        file.open("day4_input.txt");
+        file.open("../Text Files/day4_input.txt");
         int num;
         file >> num;
         struct Bingo bingo;

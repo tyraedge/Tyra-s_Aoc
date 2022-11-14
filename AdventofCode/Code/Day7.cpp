@@ -49,7 +49,7 @@ namespace Day7{
 
     void start(){
         ifstream file;
-        file.open("day7_input.txt");
+        file.open("../Text Files/day7_input.txt");
         int num;
         file >> num;
         struct AssembleCrabs assembly;

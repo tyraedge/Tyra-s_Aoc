@@ -106,7 +106,7 @@ namespace Day6
     void start()
     {
         ifstream file;
-        file.open("day6_input.txt");
+        file.open("../Text Files/day6_input.txt");
         int num;
         file >> num;
         struct FishFamily family;

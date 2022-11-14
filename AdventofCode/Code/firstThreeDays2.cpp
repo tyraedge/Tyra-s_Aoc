@@ -59,7 +59,7 @@ namespace Day1 {
 
     void start(){
         ifstream file;
-        file.open("day1_input.txt");
+        file.open("../Text Files/day1_input.txt");
         std::string s;
         struct Measurements m;
         while(getline(file, s)){
@@ -97,7 +97,7 @@ namespace Day2{
     }
 
     void start(){
-        std::ifstream file("day2_input.txt");
+        std::ifstream file("../Text Files/day2_input.txt");
         std::string str;
         int i;
         struct Coordinates cord;
@@ -198,7 +198,7 @@ namespace Day3{
     }
 
     void start(){
-        std::ifstream file("day3_input.txt");
+        std::ifstream file("../Text Files/day3_input.txt");
         std::string str;
         struct Pipeline pipe;
         while(getline(file, str)){

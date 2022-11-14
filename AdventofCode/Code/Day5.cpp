@@ -65,7 +65,7 @@ void Day5::Board::add(Coord p1, Coord p2){
 
 void start(){
     ifstream file;
-    file.open("day5_input.txt");
+    file.open("../Text Files/day5_input.txt");
     struct Board board;
     printf("%d\n", board.grid[0][0]);
     int x1; int y1;
